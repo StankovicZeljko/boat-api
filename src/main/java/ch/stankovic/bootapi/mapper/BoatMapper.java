@@ -18,6 +18,7 @@ public class BoatMapper {
 
     public BoatResponseDto toResponse(Boat boat){
         return BoatResponseDto.builder()
+                .id(boat.getId())
                 .name(boat.getName())
                 .description(boat.getDescription())
                 .capacity(boat.getCapacity())
