@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="2" author="zeljko">
+        <insert tableName="boat">
+            <column name="name" value="Boat1"/>
+            <column name="capacity" valueNumeric="10"/>
+            <column name="description" value="This is Boat1"/>
+            <column name="available" valueBoolean="false"/>
+        </insert>
+        <insert tableName="boat">
+            <column name="name" value="Boat2"/>
+            <column name="capacity" valueNumeric="6"/>
+            <column name="description" value="This is Boat2"/>
+            <column name="available" valueBoolean="true"/>
+        </insert>
+        <insert tableName="boat">
+            <column name="name" value="Boat3"/>
+            <column name="capacity" valueNumeric="10"/>
+            <column name="description" value="This is Boat3"/>
+            <column name="available" valueBoolean="true"/>
+        </insert>
+        <insert tableName="boat">
+            <column name="name" value="Boat4"/>
+            <column name="capacity" valueNumeric="4"/>
+            <column name="description" value="This is Boat4"/>
+            <column name="available" valueBoolean="true"/>
+        </insert>
+        <insert tableName="boat">
+            <column name="name" value="Boat5"/>
+            <column name="capacity" valueNumeric="6"/>
+            <column name="description" value="This is Boat5"/>
+            <column name="available" valueBoolean="true"/>
+        </insert>
+        <insert tableName="boat">
+            <column name="name" value="Boat7"/>
+            <column name="capacity" valueNumeric="10"/>
+            <column name="description" value="This is Boat7"/>
+            <column name="available" valueBoolean="false"/>
+        </insert>
+        <insert tableName="boat">
+            <column name="name" value="Boat8"/>
+            <column name="capacity" valueNumeric="2"/>
+            <column name="description" value="This is Boat8"/>
+            <column name="available" valueBoolean="true"/>
+        </insert>
+        <insert tableName="boat">
+            <column name="name" value="Boat9"/>
+            <column name="capacity" valueNumeric="2"/>
+            <column name="description" value="This is Boat9"/>
+            <column name="available" valueBoolean="true"/>
+        </insert>
+        <insert tableName="boat">
+            <column name="name" value="Boat10"/>
+            <column name="capacity" valueNumeric="100"/>
+            <column name="description" value="This is Boat10"/>
+            <column name="available" valueBoolean="true"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>
